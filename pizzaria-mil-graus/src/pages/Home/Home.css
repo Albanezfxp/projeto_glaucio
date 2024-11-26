@@ -13,7 +13,7 @@
   background-color: black;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   position: relative;
 }
 
@@ -122,4 +122,51 @@
 /* Adicionar animação à seção */
 #sectionContainer {
   animation: fadeIn 1s ease-out forwards;
+}
+
+/* body responsividade */
+
+@media (max-width: 320px) {
+  .Home{
+    min-height: 280px;
+  
+  }
+
+  #homeMainContainer{
+    flex-direction: column-reverse;
+    height: 100vh;
+    padding: 20px;
+    margin-left: 50px;
+   
+    
+    
+
+  }
+  #sectionContainer{
+    margin-left: 130px;
+  }
+  #sectionContainer p {
+    max-width: 280px; 
+    font-size: 18px;
+    line-height: 1.3;
+    text-align: center;
+      
+  }
+  #sectionContainer h1 {
+    font-size: 24px;
+    margin-left: 20px;
+  }
+  #mil{
+    font-size: 24px;
+    
+
+  }
+  #graus{
+    font-size: 24px;
+    
+
+  }
+  
+  
+  
 }
