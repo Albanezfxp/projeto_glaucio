@@ -37,7 +37,7 @@
 #homeMainContainer {
   margin-top: 10px;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   height: 75vh;
