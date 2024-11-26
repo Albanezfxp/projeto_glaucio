@@ -30,6 +30,7 @@
   align-items: center;
   height: 75vh;
   width: 100%;
+  flex-direction: column;
 }
 
 #textLocalizacaoContainer {
@@ -39,14 +40,17 @@
   font-size: 22px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-#textLocalizacaoContainer > h1 {
+#textLocalizacaoContainer >  {
   animation: fadeIn 1s ease-in;
+  flex-direction: column-reverse;
 }
 #textLocalizacaoContainer > p {
   color: #ebe6e6;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  font-size: 18px;
+  font-size: 20px;
   animation: fadeOut 1s ease-in;
+  flex-direction: column-reverse;
+
 }
 
 #mapLocalizacaoContainer {
@@ -89,5 +93,11 @@
   100% {
     opacity: 1;
     transform: translateX(0);
+ }
+}
+
+@media (max-width: 320px){
+  #mainLocalizacaoContaine{
+    height: 100vh;
   }
 }
