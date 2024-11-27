@@ -41,3 +41,32 @@
 #navContainer > ul > p {
   color: #ffffffa5;
 }
+/* menu mobile*/
+#mobile-menu div{
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+
+}
+#mobile-menu{
+  cursor: pointer;
+  display: none;
+}
+
+/* responsividade */
+@media (max-width: 425px){
+  #navContainer > ul > p{
+    display: none;
+    
+  }
+  #navContainer > ul{
+    gap: 2px;
+    
+  }
+  
+  
+  
+  
+
+}

@@ -10,6 +10,11 @@ export default function Header() {
             <img src={logoHeader} alt="Logo-Imagem" id="imgLogoItem" />
           </div>
           <nav>
+            <div id="mobile-menu">
+              <div id='line1'></div>
+              <div id='line2'></div>
+              <div id='line3'></div>
+            </div>
             <div id="navContainer">
               <ul>
                 <LiNav link="/cardapio" page="Cardapio" />
