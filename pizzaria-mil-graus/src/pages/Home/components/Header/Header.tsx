@@ -15,8 +15,8 @@ export default function Header() {
                 <LiNav link="/cardapio" page="Cardapio" />
                 <p>|</p>
                 <LiNav link="/localizacao" page="Localização" /> <p>|</p>
-                <LiNav link="/" page="Promoções" /> <p>|</p>
-                <LiNav link="/" page="Telefone" />{" "}
+                <LiNav link="/promocoes" page="Promoções" /> <p>|</p>
+                <LiNav link="/" page="Telefone" />
               </ul>
             </div>
           </nav>
