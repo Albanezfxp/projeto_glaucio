@@ -3,7 +3,7 @@
   padding: 0px;
   min-height: 100vh;
   overflow: hidden;
-  transition: background-color 0.5s ease; /* Adiciona transição suave para o fundo */
+  transition: background-color 0.5s ease; 
 }
 
 .mainPromocoesContainer {
@@ -15,7 +15,7 @@
   align-items: center;
   height: 75vh;
   width: 100%;
-  transition: transform 0.5s ease; /* Transição suave */
+  transition: transform 0.5s ease;
 }
 
 #textPromocoesContainer {
