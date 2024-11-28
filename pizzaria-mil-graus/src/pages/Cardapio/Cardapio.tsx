@@ -6,6 +6,7 @@ import img3 from "../../assets/IMG_2025.jpg";
 import img4 from "../../assets/IMG_2027.jpg";
 import img5 from "../../assets/IMG_2026.jpg";
 import { useState } from "react";
+import FloatingButton from "../Home/components/FloatingButton/FloatingButton";
 
 export default function Cardapio() {
   const [imgCard, setImgCard] = useState(img1);
@@ -91,6 +92,7 @@ export default function Cardapio() {
           </div>
         </div>
       </main>
+      <FloatingButton />
     </div>
   );
 }

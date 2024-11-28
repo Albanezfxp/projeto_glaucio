@@ -11,9 +11,9 @@ export default function Header() {
           </div>
           <nav>
             <div id="mobile-menu">
-              <div id='line1'></div>
-              <div id='line2'></div>
-              <div id='line3'></div>
+              <div id="line1"></div>
+              <div id="line2"></div>
+              <div id="line3"></div>
             </div>
             <div id="navContainer">
               <ul>
@@ -21,7 +21,7 @@ export default function Header() {
                 <p>|</p>
                 <LiNav link="/localizacao" page="Localização" /> <p>|</p>
                 <LiNav link="/promocoes" page="Promoções" /> <p>|</p>
-                <LiNav link="/" page="Telefone" />
+                <LiNav link="/contato" page="Contato" />
               </ul>
             </div>
           </nav>

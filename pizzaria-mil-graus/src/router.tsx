@@ -3,6 +3,7 @@ import Home from "./pages/Home/Home";
 import Cardapio from "./pages/Cardapio/Cardapio";
 import Localizacao from "./pages/Localizacao/Localizacao";
 import Promocoes from "./pages/Promocoes/Promocoes";
+import Contato from "./pages/Contato/Contato";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/promocoes",
     element: <Promocoes />,
+  },
+  {
+    path: "/contato",
+    element: <Contato />,
   },
 ]);
 

@@ -2,6 +2,7 @@ import Header from "../Home/components/Header/Header";
 import "./Promocoes.css";
 import imgPizza from "../../assets/pizza.png";
 import { useState } from "react";
+import FloatingButton from "../Home/components/FloatingButton/FloatingButton";
 
 export default function Promocoes() {
   const [backgroundColor, setBackgroundColor] = useState("#ffcb6b");
@@ -16,8 +17,8 @@ export default function Promocoes() {
       setBackgroundColor("#fd3e3e");
       setDisplaySecondPromo("flex");
       setDisplayFirstPromo("none");
-      setAnimationState("mainPromocoesContainer-active"); // Reset animação
-    }, 500); // Duração da animação (tempo para o empurrão)
+      setAnimationState("mainPromocoesContainer-active");
+    }, 500);
   }
 
   function chageLeftPromo(ev: any) {
@@ -28,8 +29,8 @@ export default function Promocoes() {
       setDisplaySecondPromo("none");
       setDisplayFirstPromo("flex");
       setBackgroundColor("#ffcb6b");
-      setAnimationState("mainPromocoesContainer-active"); // Reset animação
-    }, 500); // Duração da animação (tempo para o empurrão)
+      setAnimationState("mainPromocoesContainer-active");
+    }, 500);
   }
 
   return (
@@ -99,6 +100,7 @@ export default function Promocoes() {
             </svg>
           </div>
         </main>
+        <FloatingButton />
       </div>
     </>
   );

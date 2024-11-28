@@ -125,19 +125,16 @@
 }
 
 /* body responsividade */
-@media(min-width: 320px) {
-  
-  
+@media (min-width: 320px) {
   #sectionContainer {
     width: 280px;
     text-align: justify;
-
   }
   #sectionContainer p {
     font-size: 18px;
     line-height: 1.6;
   }
-  #sectionContainer h1{
+  #sectionContainer h1 {
     margin-bottom: 20px;
     font-size: 27px;
     line-height: 1.3;
@@ -147,20 +144,16 @@
     height: 300px;
   }
 }
-@media(min-width: 375px){
-  
+@media (min-width: 375px) {
   #sectionContainer {
     width: 325px;
     text-align: justify;
-    
-    
-
   }
   #sectionContainer p {
     font-size: 18px;
     line-height: 1.6;
   }
-  #sectionContainer h1{
+  #sectionContainer h1 {
     margin-bottom: 20px;
     font-size: 27px;
     line-height: 1.3;
@@ -169,11 +162,9 @@
   #bannerHome img {
     height: 300px;
   }
-
 }
-@media(max-width: 425px) {
-  
-  #homeMainContainer{
+@media (max-width: 425px) {
+  #homeMainContainer {
     height: 100vh;
     flex-direction: column-reverse;
   }
@@ -185,7 +176,7 @@
     font-size: 18px;
     line-height: 1.6;
   }
-  #sectionContainer h1{
+  #sectionContainer h1 {
     margin-bottom: 20px;
     font-size: 27px;
     line-height: 1.3;
@@ -195,7 +186,7 @@
     height: 300px;
   }
 }
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   #sectionContainer {
     width: 350px;
     text-align: justify;
@@ -204,7 +195,7 @@
     font-size: 18px;
     line-height: 1.6;
   }
-  #sectionContainer h1{
+  #sectionContainer h1 {
     margin-bottom: 20px;
     font-size: 27px;
     line-height: 1.3;
@@ -214,9 +205,8 @@
     height: 300px;
   }
 }
-@media(min-width: 1024px){
+@media (min-width: 1024px) {
   #sectionContainer {
     width: 500px;
-    text-align: justify;
   }
 }
