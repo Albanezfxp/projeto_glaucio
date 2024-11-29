@@ -186,7 +186,6 @@
     #textLocalizacaoContainer{
       width: 500px;
       font-size: 10px;
-      text-align: center;
       margin-top: 30px;
       margin-bottom: 30px;
       
@@ -207,7 +206,7 @@
     }
     #mainLocalizacaoContainer{
       
-      height: 100vh;
+      height: 75vh;
     }
     #mapLocalizacaoContainer > a {
       text-align: center;
@@ -220,8 +219,8 @@
       text-align: justify;
     }
     #textLocalizacaoContainer > h1{
-      font-size: 28px;
-      text-align: center;
+      font-size: 44px;
+      text-align: start;
     }
   }
 }
