@@ -211,12 +211,19 @@
     text-align: center;
   }
   #bannerHome img {
-    height: 300px;
+    height: 400px;
   }
 }
 @media(min-width: 1024px){
   #sectionContainer {
     width: 500px;
-    text-align: justify;
+    font-size: 22px;
+  }
+  #sectionContainer h1{
+    font-size: 38px;
+    text-align: start;
+  }
+  #bannerHome img {
+    height: 400px;
   }
 }
