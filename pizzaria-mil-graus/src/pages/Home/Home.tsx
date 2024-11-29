@@ -1,6 +1,7 @@
 import "./Home.css";
 import bannerHome from "../../assets/ai-generated-delicious-pepperoni-pizza-with-melted-cheese-png__1_-removebg-preview.png";
 import Header from "./components/Header/Header";
+import FloatingButton from "./components/FloatingButton/FloatingButton";
 export default function Home() {
   return (
     <>
@@ -28,6 +29,7 @@ export default function Home() {
             </section>
           </div>
         </main>
+        <FloatingButton />
       </div>
     </>
   );

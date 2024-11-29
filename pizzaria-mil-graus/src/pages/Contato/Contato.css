@@ -1,0 +1,74 @@
+.Contato {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+  background-image: url("../../assets/a393acd1-1de1-4274-adc8-ed6f037a4751.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.Contato::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.331);
+  backdrop-filter: blur(2px);
+  z-index: 1;
+}
+
+#mainContatoContainer {
+  position: relative;
+  z-index: 2;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 75vh;
+  width: 100%;
+  text-align: center;
+}
+
+#contactImg > ul {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  gap: 100px;
+}
+#contactImg > ul > li > a > img {
+  width: 80px;
+  cursor: pointer;
+}
+.IconsClass {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 5px;
+}
+
+#contactImg > ul > li > p {
+  color: #ebe6e6;
+}
+
+#sectionContactContainer {
+  width: 500px;
+  line-height: 1.6;
+  color: #fff;
+  font-size: 22px;
+}
+
+#sectionContactContainer > p {
+  color: #ebe6e6;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#contactImg > ul > li > a > img:hover {
+  position: relative;
+  bottom: 10px;
+  transition: 1s;
+}

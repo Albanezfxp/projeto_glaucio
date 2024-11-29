@@ -1,3 +1,4 @@
+import FloatingButton from "../Home/components/FloatingButton/FloatingButton";
 import Header from "../Home/components/Header/Header";
 import "./Localizacao.css";
 export default function Localizacao() {
@@ -37,6 +38,7 @@ export default function Localizacao() {
             </div>
           </div>
         </main>
+        <FloatingButton />
       </div>
     </>
   );
