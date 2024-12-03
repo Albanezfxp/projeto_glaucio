@@ -80,9 +80,9 @@
   }
 }
 
-@media (max-width: 375px) {
-  .mainPromocoesContainer {
-    flex-direction: column; 
+@media (max-width: 768px){
+  .mainPromocoesContainer{
+    flex-direction: column;
     padding: 10px; 
     padding-top: 25px;
     gap: 10vh; 
@@ -93,80 +93,31 @@
     width: 100%; 
     font-size: 16px; 
     line-height: 1.4; 
-    text-align: justify; 
-    align-items: center;
+    text-align: center; 
   }
 
   #textPromocoesContainer > p {
-    font-size: 14px; 
-    width: 360px;
+    font-size: 18px; 
+    width: 700px;
     text-align: center;
   }
 
   #imgPromocoesContainer > img {
-    width: 90%; 
+    width: 70%; 
   }
 
   #secondPromo {
     flex-direction: column-reverse; 
   }
-
-
-  #secondPromo > #textPromocoesContainer > h1 {
-    font-size: 18px; 
-  }
 }
 
-@media (max-width: 380px) {
-  .mainPromocoesContainer {
+@media (max-width: 425px){
+  .mainPromocoesContainer{
     flex-direction: column; 
     padding: 10px; 
     padding-top: 25px;
     gap: 10vh; 
     height: auto; 
-  }
-
-  #textPromocoesContainer {
-    width: 100%; 
-    font-size: 16px; 
-    line-height: 1.4; 
-    text-align: justify; 
-    align-items: center;
-  }
-
-  #textPromocoesContainer > p {
-    font-size: 14px; 
-    width: 350px;
-    text-align: center;
-  }
-
-  #imgPromocoesContainer > img {
-    width: 90%; 
-  }
-
-  #secondPromo {
-    flex-direction: column-reverse; 
-  }
-
-
-  #secondPromo > #textPromocoesContainer > h1 {
-    font-size: 18px; 
-  }
-}
-
-
-
-@media (min-width: 425px){
-  .mainPromocoesContainer {
-    flex-direction: column; 
-    padding: 10px; 
-    padding-top: 25px;
-    gap: 10vh; 
-    height: auto; 
-  }
-
-  .mainPromocoesContaine{
-    height: 100vh;
   }
 
   #textPromocoesContainer {
@@ -190,23 +141,15 @@
     flex-direction: column-reverse; 
   }
 
-
-  #secondPromo > #textPromocoesContainer > h1 {
-    font-size: 18px; 
-  }
 }
 
-@media (min-width: 768px){
-  .mainPromocoesContainer { 
-    
-    padding: 10px; 
-    padding-top: 25px;
-    gap: 10vh; 
-    height: auto; 
-  }
-
-  .mainPromocoesContaine{
-    height: 100vh;
+@media(max-width: 375px){
+  .mainPromocoesContainer{
+    flex-direction: column;
+    padding-top: 10px;
+    padding: 10px;
+    gap: 10vh;
+    height: auto;
   }
 
   #textPromocoesContainer {
@@ -218,7 +161,7 @@
 
   #textPromocoesContainer > p {
     font-size: 14px; 
-    width: 735px;
+    width: 350px;
     text-align: center;
   }
 
@@ -230,10 +173,6 @@
     flex-direction: column-reverse; 
   }
 
-
-  #secondPromo > #textPromocoesContainer > h1 {
-    font-size: 18px; 
-  }
 }
 
 @media (max-width: 320px) {
@@ -265,18 +204,8 @@
   #secondPromo {
     flex-direction: column-reverse; 
   }
-
-
-  #secondPromo > #textPromocoesContainer > h1 {
-    font-size: 18px; 
-  }
 }
 
-@media(max-width: 1024px){
-  #onePromo{
-    display: flex;
-  }
-}
 
 
 
